@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+</head>
+
+<body>
+    <h1>Marathon Registration!</h1>
+    <form action="https://www.google.com/search">
+        <label for="username">First Name</label>
+        <input type="text" name="first" id="first" required>
+        <label for="username">Last Name</label>
+        <input type="text" name="last" id="last" required>
+
+        <p>
+            Select a Race:
+        </p>
+
+        <div>
+            <input type="radio" name="race" id="fun">
+            <label for="race">Fun Round</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="half">
+            <label for="half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="race" id="full">
+            <label for="full">Full Marathon</label>
+        </div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <div>
+            <label for="age">Select Age!</label>
+            <select name="age" id="age" required>
+                <option value="10">10</option>
+                <option value="10">20</option>
+                <option value="10">30</option>
+            </select>
+        </div>
+        <button>Register!</button>
+    </form>
+</body>
+
+</html>
